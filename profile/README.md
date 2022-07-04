@@ -2,9 +2,9 @@
 
 [https://memori.ai](https://memori.ai/en)
 
-## AI for all
-
 ![Memori](https://memori.ai/en/assets/memoriai-fulltext.svg/@@images/image/mini)
+
+## AI for all
 
 Memori is an Italian startup specialising in technologies applied to the experience of memory through the development of Artificial Intelligences.
 
@@ -28,8 +28,12 @@ We are the first to make it possible to export AI to the Google Action standard 
 
 ## TwinCreator
 
+![TwinCreator](https://twincreator.com/en/assets/twinlogo.svg/@@images/image/mini)
+
 [TwinCreator](https://twincreator.com/en) is our Conversational Artificial Intelligence (CAI) business virtualisation framework, which aims to be introduced to the market as SaaS.
 
 ## MemoryTwin
+
+![MemoryTwin](https://memorytwin.com/it/risorse/memorytwin-logo-text.svg/@@images/image/mini)
 
 [MemoryTwin](https://memorytwin.com/en) is our tool which, by conversing with the user, makes it possible for anyone to build and distribute a virtual digital twin of themselves.
