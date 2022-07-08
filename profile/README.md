@@ -18,7 +18,7 @@ That's why Memori adopts an end-to-end conversational model.
 
 Memori creates Conversational Artificial Intelligences that grow with their creator through a conversation. We call this an extreme no-code approach: the creator doesn't need to know software development code or use graphical interfaces. Just pure and simple conversation.
 
-### OMNICANALITY
+### OMNICHANNEL
 
 Artificial Intelligence created by a user must be usable through a variety of channels.
 
