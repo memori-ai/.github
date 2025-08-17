@@ -1,39 +1,136 @@
-# Memori.ai
+# Memori AI
 
-[https://memori.ai](https://memori.ai/en)
+<p align="center">
+  <img src="https://www.memori.ai/assets/logo/memori-logo.png" alt="Memori AI Logo" width="200"/>
+</p>
 
-![Memori](https://memori.ai/en/assets/memoriai-fulltext.svg/@@images/image/mini)
+<p align="center">
+  <strong>AI for all. Conversational AI that grows with its creator.</strong>
+</p>
 
-## AI for all
+<p align="center">
+  <a href="https://www.memori.ai">Website</a> •
+  <a href="https://docs.aisuru.com">Documentation</a> •
+  <a href="https://www.aisuru.com">AIsuru Platform</a>
+</p>
 
-Memori is an Italian startup specialising in technologies applied to the experience of memory through the development of Artificial Intelligences.
+## 🚀 Overview
 
-Our mission is to bring the human dimension at the core of Artificial Intelligence creation, with the aim of improving people's lives.
+Memori AI è una startup italiana specializzata nello sviluppo di tecnologie di intelligenza artificiale conversazionale. La nostra missione è portare la dimensione umana al centro della creazione di intelligenza artificiale, con l'obiettivo di migliorare la vita delle persone.
 
-### NO CODE
+Adottiamo un approccio conversazionale end-to-end: le nostre Intelligenze Artificiali Conversazionali (CAI) crescono con il loro creatore attraverso semplici conversazioni. Chiamiamo questo approccio "extreme no-code": il creatore non ha bisogno di conoscere codice di sviluppo software o utilizzare interfacce grafiche complesse.
 
-The simplest form of user experience management is conversation.
+## 🧩 Librerie principali
 
-That's why Memori adopts an end-to-end conversational model.
+Memori offre tre librerie principali per l'integrazione frontend:
 
-Memori creates Conversational Artificial Intelligences that grow with their creator through a conversation. We call this an extreme no-code approach: the creator doesn't need to know software development code or use graphical interfaces. Just pure and simple conversation.
+### 1. [memori-api-client](https://github.com/memori-ai/memori-api-client)
 
-### OMNICHANNEL
+Client TypeScript per interagire direttamente con le API Memori.
 
-Artificial Intelligence created by a user must be usable through a variety of channels.
+```bash
+# npm
+npm install @memori.ai/memori-api-client
+# yarn
+yarn add @memori.ai/memori-api-client
+```
 
-We firmly believe in the value of omnichanneling.
+**Caratteristiche:**
+- Gestione completa di autenticazione e sessioni
+- Interazione con le API Engine e Backend
+- Supporto per eventi di dialogo e gestione del contesto
+- Completamente tipizzato con TypeScript
 
-We are the first to make it possible to export AI to the Google Action standard with a single click. The omnichannel strategy implemented in our framework enables the seamless delivery of conversational experiences across web, mobile, IoT systems, smart speakers and augmented/virtual reality.
+### 2. [memori-webcomponent](https://github.com/memori-ai/memori-webcomponent)
 
-## TwinCreator
+Componente web standard utilizzabile in qualsiasi pagina HTML.
 
-![TwinCreator](https://twincreator.com/en/assets/twinlogo.svg/@@images/image/mini)
+```html
+<!-- Installazione via CDN -->
+<script type="module" src="https://cdn.jsdelivr.net/npm/@memori.ai/memori-webcomponent/dist/memori-webcomponent.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@memori.ai/memori-react/dist/styles.min.css"/>
+```
 
-[TwinCreator](https://twincreator.com/en) is our Conversational Artificial Intelligence (CAI) business virtualisation framework, which aims to be introduced to the market as SaaS.
+```bash
+# npm
+npm install @memori.ai/memori-webcomponent
+# yarn
+yarn add @memori.ai/memori-webcomponent
+```
 
-## MemoryTwin
+**Caratteristiche:**
+- Utilizzo immediato in HTML puro
+- Nessuna dipendenza da framework specifici
+- Configurazione tramite attributi HTML
+- Gestione automatica del ciclo di vita del componente
 
-![MemoryTwin](https://memorytwin.com/it/risorse/memorytwin-logo-text.svg/@@images/image/mini)
+### 3. [memori-react](https://github.com/memori-ai/memori-react)
 
-[MemoryTwin](https://memorytwin.com/en) is our tool which, by conversing with the user, makes it possible for anyone to build and distribute a virtual digital twin of themselves.
+Componente React dedicato per una maggiore flessibilità.
+
+```bash
+# npm
+npm install @memori.ai/memori-react
+# yarn
+yarn add @memori.ai/memori-react
+```
+
+**Caratteristiche:**
+- Integrazione nativa con React
+- Supporto TypeScript completo
+- Layout personalizzabili
+- Sistema di eventi avanzato
+- Possibilità di override dei componenti
+- Gestione stato integrata
+
+## 🎨 Layout disponibili
+
+Il componente React offre diversi layout predefiniti:
+
+- **FULLPAGE**: Esperienza a schermo intero, ideale per pagine dedicate
+- **WEBSITE_ASSISTANT**: Assistente fluttuante, perfetto per l'integrazione in siti web
+- **CHAT**: Interfaccia chat focalizzata sui messaggi
+- **ZOOMED_FULL_BODY**: Layout a pagina intera con avatar ingrandito
+- **HIDDEN_CHAT**: Chat laterale, nascosta fino all'interazione dell'utente
+- **TOTEM**: Layout adatto per totem digitali
+
+Inoltre, è possibile creare layout completamente personalizzati.
+
+## 🔌 Architettura API
+
+L'API Memori consiste in due componenti principali:
+
+1. **API Engine** ([Swagger](https://engine.memori.ai/swagger/index.html))
+   - Gestisce sessioni e dialoghi
+   - Gestisce funzionalità NLP
+   - Elabora funzionalità conversazionali
+
+2. **API Backend** ([Swagger](https://backend.memori.ai/memoriai/swagger/index.html))
+   - Gestisce utenti e asset
+   - Gestisce notifiche
+   - Controlla amministrazione sistema
+
+## 📚 Esempi e risorse
+
+- [Esempi di integrazione](https://github.com/memori-ai/examples)
+- [Layout personalizzato di esempio](https://github.com/andrepat0/memory-media-layout)
+- [Demo live del layout personalizzato](https://andrepat0.github.io/memory-media-layout/)
+
+## 🛠️ Prodotti
+
+- **AIsuru Platform**: Piattaforma SaaS per la creazione e gestione di agenti conversazionali
+- **AI Academy**: Corsi di formazione per l'utilizzo di AI conversazionale
+
+## 🤝 Supporto
+
+- [Documentazione completa](https://docs.aisuru.com)
+- [API Reference](https://docs.aisuru.com/api)
+- [Agente di supporto Manuela](https://www.aisuru.com/it/memoridev/Manuela/54ac7607-6905-4a0d-9f50-5ec178e846a3)
+- [Meta Prompt Engineer](https://www.aisuru.com/en/dpezzettone/Meta%20Prompt%20Engineer)
+
+## 📧 Contatti
+
+- Email di supporto: ccare@memori.ai
+- Email generale: info@memori.ai
+- Demo e consulenza: demo@memori.ai
+- Sito web: [www.memori.ai](https://www.memori.ai)
