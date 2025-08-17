@@ -1,7 +1,7 @@
 # Memori AI
 
 <p align="center">
-  <img src="https://www.memori.ai/assets/logo/memori-logo.png" alt="Memori AI Logo" width="200"/>
+  <img src="https://ghost.memori.ai/content/images/2024/03/AISURU_COLOR.svg" alt="Memori AI Logo" width="200"/>
 </p>
 
 <p align="center">
